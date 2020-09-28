@@ -1,6 +1,5 @@
 # Mini Message Board
 
-
 ## Introduction
 
 This is a Mini Message board which is built by following [this lesson](https://www.theodinproject.com/courses/nodejs/lessons/mini-message-board#assignment) on [TheOdinProject](https://www.theodinproject.com/)
