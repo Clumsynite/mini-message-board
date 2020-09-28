@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  
+  each message in messages
+    div.card.text-white.bg-primary.mar-top-20
+      div.card-header #{message.user}
+      div.card-body
+        h5.card-title #{message.text}
+        p.card-text #{message.added}
