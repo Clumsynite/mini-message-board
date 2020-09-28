@@ -7,7 +7,8 @@ block content
     div.card.mar-top-20
       div.card-body.text-white.bg-primary
         h5.card-title #{message.user}
-        //- h6.card-subtitle.text-muted #{message.added}
-          //- h5.card-title #{message.text}
         p.card-text #{message.text}
-      div.card-footer.text-white.bg-dark #{message.added}
+      div.card-footer.text-white.bg-dark #{moment(messages.added).format('LLLL')}
+  
+  a.btn.btn-outline-primary.btn-block.mar-top-20(href='/new') Add Message
+
