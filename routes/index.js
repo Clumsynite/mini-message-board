@@ -5,12 +5,12 @@ const moment = require('moment');
 
 const messages = [{
     text: 'Hi there!',
-    user: 'Amando',
+    user: 'Clumsyknight',
     added: new Date(),
   },
   {
-    text: 'Hello World!',
-    user: 'Charles',
+    text: `Welcome to my Message board. You can post your message using the button below`,
+    user: 'Clumsyknight',
     added: new Date(),
   },
 ];
