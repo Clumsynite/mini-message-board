@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+
+  form(method="POST" action="")
+    div.form-group
+      label(for="author") Enter your name: 
+      input.form-control#author(type="text" name="author" required)
+    div.form-group
+      label(for="text") Enter your message: 
+      textarea.form-control#text(type="text" row="4" name="text" required)
+    button.btn.btn-outline-primary.btn-block(type="submit" ) Post Message
+    a.btn.btn-outline-danger.btn-block(href='/') Cancel
