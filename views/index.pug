@@ -4,8 +4,10 @@ block content
   h1= title
   
   each message in messages
-    div.card.text-white.bg-primary.mar-top-20
-      div.card-header #{message.user}
-      div.card-body
-        h5.card-title #{message.text}
-        p.card-text #{message.added}
+    div.card.mar-top-20
+      div.card-body.text-white.bg-info
+        h5.card-title #{message.user}
+        //- h6.card-subtitle.text-muted #{message.added}
+          //- h5.card-title #{message.text}
+        p.card-text #{message.text}
+      div.card-footer.text-white.bg-secondary #{message.added}
