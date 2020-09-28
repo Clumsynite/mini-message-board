@@ -5,9 +5,9 @@ block content
   
   each message in messages
     div.card.mar-top-20
-      div.card-body.text-white.bg-info
+      div.card-body.text-white.bg-primary
         h5.card-title #{message.user}
         //- h6.card-subtitle.text-muted #{message.added}
           //- h5.card-title #{message.text}
         p.card-text #{message.text}
-      div.card-footer.text-white.bg-secondary #{message.added}
+      div.card-footer.text-white.bg-dark #{message.added}
